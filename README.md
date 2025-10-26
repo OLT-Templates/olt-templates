@@ -58,7 +58,6 @@ A tabela a seguir mostra os **prefixos SNMP (OIDs base)** usados em cada templat
 
 ✅ **Observações Importantes**
 - Alguns OIDs se repetem entre marcas diferentes (como V-SOLUTION e SROROLINE), mas os **templates são distintos** devido a diferenças internas de MIB.  
-- Os templates **INTELBRAS** foram atualizados e corrigidos conforme novas versões.  
 - A coluna “Modelos Relacionados” indica os firmwares ou variações validadas em laboratório.  
 - Cada OID base é usado como referência de descoberta SNMP para **gerar automaticamente os itens Zabbix**.
 
