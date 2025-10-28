@@ -23,7 +23,7 @@ A tabela a seguir mostra os **prefixos SNMP (OIDs base)** usados em cada templat
 
 | Fabricante / Tipo | Padrão OID base | Modelos Relacionados |
 |-------------------|-----------------|----------------------|
-| **BDCOM (OLT-EPON)** | `.1.3.6.1.4.1.3320.x.x.x.x.x` | FNL4000-BD |
+| **BDCOM (OLT-EPON)** | `.1.3.6.1.4.1.3320.x.x.x.x.x` | FNL4000-BD / P3310D |
 | **C-DATA (OLT-EPON)** | `1.3.6.1.4.1.34592.x.x.x.x.x.x` | FD1104S / FD1108S |
 | **CHIMA (OLT-GPON)** | `.1.3.6.1.4.1.13464.x.x.x.x.x.x.x.x` | CASSETTE V100R001B01D002P002SP1-WEB2.0 |
 | **CIANET (OLT-GPON)** | `1.3.6.1.4.1.17409.x.x.x.x.x.x` | OLT-01MF / G8PS |
