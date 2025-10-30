@@ -1,5 +1,14 @@
 # 🧩 OLT Templates — Templates Iniciais para Zabbix v7
 
+> Este repositório reúne **Templates Zabbix v6 v7 (XML)** para **OLTs GPON/EPON**, com **OIDs SNMP, MIBs e LLD** por fabricante/modelo.  
+> Palavras-chave: **zabbix template**, **olt gpon**, **olt epon**, **snmp**, **mib**, **oid**, **lld**, **intelbras**, **zte**, **fiberhome**, **huawei**, **v-solution**, **nokia**.
+> zabbix 6, zabbix 7, zabbix template olt, template zabbix gpon, template zabbix epon,  
+> snmp oid mib olt, low-level discovery, lld zabbix,  
+> nokia isam fx r5.7 r6.2, zte c320 c600 c610, think tk-80 v2 tk7000, c-data fd1104s fd1108s,  
+> datacom dm4615 16gpon, v-solution v1600d v1600a v1600b v1600g0 v1600g1 v1600gs, vsol,  
+> intelbras 4840e 8820g 8820i cassette g16, huawei ma5608t ma5680t, fiberhome an5516 an6000,  
+> bdcom fnl4000 p3310d, parks fiberlink 30024 30028, ubnt edgeos olt, hsgq g008, tenda tes7008, phyhome fhl2100
+
 Gere **templates iniciais para Zabbix** e **agilize o desenvolvimento** do seu monitoramento.  
 Compatível com **Intelbras, Nokia, Huawei, ZTE, V-Solution** e outras — ideal para **desenvolvedores criarem soluções personalizadas**.
 
@@ -56,12 +65,46 @@ A tabela a seguir mostra os **prefixos SNMP (OIDs base)** usados em cada templat
 
 ---
 
+## 🔎 Como encontrar por OID/Modelo (GitHub/Google)
+
+Pesquise usando **combinações** de fabricante + OID + Zabbix:
+
+- `C-DATA 1.3.6.1.4.1.34592 zabbix template`
+- `V-SOLUTION 1.3.6.1.4.1.37950 GPON Zabbix`
+- `Intelbras 1.3.6.1.4.1.26138 olt gpon mib`
+- `ZTE C320 1.3.6.1.4.1.3902 zabbix xml`
+- `FiberHome AN5516 1.3.6.1.4.1.5875 lld`
+- `THINK TK-80 V2 1.3.6.1.4.1.17409 zabbix`
+
 ✅ **Observações Importantes**
 - Alguns OIDs se repetem entre marcas diferentes (como V-SOLUTION e SROROLINE), mas os **templates são distintos** devido a diferenças internas de MIB.  
 - A coluna “Modelos Relacionados” indica os firmwares ou variações validadas em laboratório.  
 - Cada OID base é usado como referência de descoberta SNMP para **gerar automaticamente os itens Zabbix**.
 
 ---
+
+<details>
+<summary>📚 Glossário de termos (para buscadores)</summary>
+
+Zabbix v6 v7 · Template XML · SNMP · MIB · OID · LLD (Low-Level Discovery) · GPON · EPON ·  
+Triggers · Value maps · ONUs · PON · RX/TX power · ifOperStatus · discovery[...]
+</details>
+
+<details>
+<summary>🔎 Buscas populares (ajuda na indexação)</summary>
+
+zabbix 6 template olt gpon  
+zabbix 7 template olt epon  
+zabbix olt nokia isam fx r6.2  
+zabbix template zte c320 oid 1.3.6.1.4.1.3902  
+zabbix template vsol v-solution 1.3.6.1.4.1.37950  
+zabbix intelbras 8820g oid 1.3.6.1.4.1.26138  
+zabbix datacom dm4615 gpon  
+zabbix fiberhome an5516 oid 1.3.6.1.4.1.5875  
+zabbix huawei ma5608t 1.3.6.1.4.1.2011  
+zabbix think tk-80 v2 1.3.6.1.4.1.17409  
+zabbix c-data fd series 1.3.6.1.4.1.34592
+</details>
 
 📧 **Contato:** comercial@olt-templates.com  
 🌐 **Acesse:** https://www.olt-templates.com
